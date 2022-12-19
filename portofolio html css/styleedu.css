@@ -1,0 +1,144 @@
+*{
+    font-family: helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),#3551b5), url(/image/10.jpg);
+    background-position: top;
+    background-size: cover;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.navbar ul li::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.prime{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+.prime h1{
+    font-size: 90px;
+    margin-top: 30px;
+}
+.prime p{
+    font-size: 35px;
+    margin: 20px auto;
+}
+.profile{
+    padding-top: 30px;
+    padding-left: 10%;
+}
+button{
+    padding-left: 50px;
+    font-size: 18px;
+    padding: 10px;
+    color: white;
+    outline: none;
+    background: transparent;
+    border: 1px solid white;
+    width: 200PX;
+    cursor: pointer;
+    text-align: center;
+    margin:0;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    overflow: hidden;
+}
+span{
+    background: white;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0s;
+}
+button:hover{
+    color: black;
+    background-color: white;
+}
+.education{
+    padding : 20px;
+    margin-left : 600px;
+    margin-top : 100px;
+}
+h1{
+    color: white;
+    font-size: 100px;
+    padding-bottom:20px;
+}
+h5{
+    color: white;
+    font-size: 24px;
+    padding-bottom: 100px;
+}
+h4{
+    color: white;
+    font-size: 40px;
+    padding-bottom: 5px;
+}
+h3{
+    color : white;
+    font-size : 30px;
+    margin-top : 20px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+h6{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 15px; 
+}
+.foto{
+    float: left;
+}
+h2{
+    color:white;
+    font-size : 36px;
+}
